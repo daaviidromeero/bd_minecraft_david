@@ -3,11 +3,10 @@ CREATE DATABASE minecraft;
 USE minecraft;
 
 CREATE TABLE Jugador (
-    id_jugador INT NOT NULL,      
+    id_jugador INT NOT NULL, 
     nombre VARCHAR(50) NOT NULL,
     correo_electronico VARCHAR(100) NOT NULL,
-    PRIMARY KEY (id_jugador)
-    
+    PRIMARY KEY (id_jugador)    
 );
 
 CREATE TABLE Tipo_Jugador (
